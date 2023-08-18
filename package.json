@@ -1,0 +1,23 @@
+{
+  "name": "jsonpath",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stoplight/yaml": "^4.2.3",
+    "fs": "^0.0.1-security",
+    "js-yaml": "^4.1.0",
+    "jsonpath": "^1.1.1",
+    "typescript": "^5.1.6",
+    "vscode": "^1.1.37"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.0"
+  }
+}

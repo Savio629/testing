@@ -1,0 +1,17 @@
+asyncapi-latest-version:
+  - message: "The latest version is not used. You should update to the '2.5.0' version."
+    errorCheck: "$.asyncapi"
+    quickfix:
+      text: "2.5.0"
+      type: "update"
+asyncapi-schema:
+  - message: "'title' property type must be string"
+    errorCheck: "$.info.title"
+    quickfix:
+      text: "Example API"
+      type: "update"
+  - message: "'descrition' property type must be string"
+    errorCheck: "$.info.description"
+    quickfix:
+      text: "Dummy description"
+      type: "update"    

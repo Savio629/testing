@@ -1,0 +1,34 @@
+asyncapi: 2.3.0
+info:
+  title: 
+  version: 1.0.0
+  description: 1
+  license:
+    name: f
+    url: https://
+  contact:
+    url: https://example.com
+    email: e@gmail.com
+    name: Temp
+servers:
+  production:
+    url: example.com
+    protocol: mqtt
+channels:
+  myChannel:
+    publish:
+      operationId: turn
+      description: External docs description 1
+      message:
+        payload:
+          type: object
+          properties:
+            value:
+              type: integer
+          required:
+            - value
+          examples:
+            - value: 13
+tags:
+  - name: Badger
+  - name: Badger1
